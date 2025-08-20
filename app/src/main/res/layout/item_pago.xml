@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="3dp"
+    android:paddingStart="15dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="5dp"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvwPagoid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:maxWidth="50dp"
+            android:minWidth="45dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwTrabid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="ID" />
+
+        <TextView
+            android:id="@+id/tvwTrabid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwMonto"
+            app:layout_constraintStart_toEndOf="@+id/tvwPagoid"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Trabid" />
+
+        <TextView
+            android:id="@+id/tvwMonto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwFechapago"
+            app:layout_constraintStart_toEndOf="@+id/tvwTrabid"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Monto" />
+
+        <TextView
+            android:id="@+id/tvwFechapago"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwMonto"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Fechapago" />
+
+        <TextView
+            android:id="@+id/tvwMetodopago"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwEstado"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwPagoid"
+            tools:text="Metodopago" />
+
+        <TextView
+            android:id="@+id/tvwEstado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwMetodopago"
+            app:layout_constraintTop_toBottomOf="@+id/tvwTrabid"
+            tools:text="Estado" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

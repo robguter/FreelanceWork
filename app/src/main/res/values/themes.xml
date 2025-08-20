@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FreelanceWork" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="colorContainer">@color/colorContainer</item>
+        <item name="cardBackgroundColor">@color/card_background_color</item>
+        <item name="android:colorBackground">@color/colorBackground</item><!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/colorPrimary</item> <!--  Para el fondo del drawer -->
+
+        <item name="colorSecondaryContainer">@color/colorConten</item> <!--CONTEN-->
+        <item name="colorTertiary">@color/highlightedTextViewColor</item>
+        <item name="colorTertiaryContainer">@color/colorBackDeg3</item>
+
+        <item name="colorOnSecondaryContainer">@color/textoConten</item> <!--TEXTO CONTEN-->
+        <item name="colorOnTertiaryContainer">@color/colorBackDeg3</item>
+        <item name="colorOnTertiary">@color/cnFdo</item>
+
+        <item name="android:textColorSecondary">@color/colorOnSecondary</item>
+        <item name="android:textColorPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnPrimaryFixed">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnSurface">@color/colorOnSecondary</item>
+        <item name="colorOnError">@color/colorOnPrimary</item>
+        <item name="android:editTextColor">@color/colorOnPrimary</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+
+        <!-- Default Framework Text Colors. -->
+        <item name="android:textColorTertiary">@color/transparente</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/colorDisabled</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/colorDisabled</item>
+        <item name="android:textColorHint">@color/colorOnSecondary</item>  <!--HINT-->
+        <item name="android:textColorHighlight">@color/contransp</item>  <!--SELECCIONADO-->
+        <item name="android:textColorAlertDialogListItem">@color/colorDisabled</item>
+        <item name="android:colorControlActivated">@color/colorBackDeg3</item> <!--PROGRESS-->
+        <item name="android:colorControlNormal">@color/linea</item> <!--BORDES Y PUNTOS DEL MENU -->
+        <item name="android:colorControlHighlight">@color/transparente</item>  <!--SELECCIONADO-->
+
+    </style>
+    <style name="CstmSpnnr" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="strokeColor">@color/colorSecondary</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:layout_marginEnd">@dimen/list_padding</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">#CCCCCC</item>
+        <item name="android:popupBackground">@drawable/mi_borde</item>
+        <item name="android:background">@drawable/borde_fdo</item>
+        <!--<item name="android:backgroundTint">@color/white</item>-->
+    </style>
+
+    <style name="CustomSpnnr" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/list_padding</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:popupBackground">@drawable/mi_borde</item>
+        <item name="android:background">@drawable/mi_borde</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:popupTheme">@drawable/borde_fdo</item>
+        <item name="android:foreground">@drawable/borde</item>
+        <item name="android:foregroundTint">@color/design_default_color_background</item>
+        <item name="android:theme">@style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge</item>
+    </style>
+    <style name="SwitchTextAppearance" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">@drawable/text_color_selector</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

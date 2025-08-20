@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="3dp"
+    android:paddingStart="15dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="5dp"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvwId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="3dp"
+            android:maxWidth="50dp"
+            android:minWidth="45dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwFreeid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="ID" />
+
+        <TextView
+            android:id="@+id/tvwFreeid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwHablid"
+            app:layout_constraintStart_toEndOf="@+id/tvwId"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Freeid" />
+
+        <TextView
+            android:id="@+id/tvwHablid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwNivel"
+            app:layout_constraintStart_toEndOf="@+id/tvwFreeid"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Hablid" />
+
+        <TextView
+            android:id="@+id/tvwNivel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwHablid"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Nivel" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

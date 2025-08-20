@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="3dp"
+    android:paddingStart="15dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="5dp"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvwTrabid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwProyid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="ID" />
+
+        <TextView
+            android:id="@+id/tvwProyid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwFreeid"
+            app:layout_constraintStart_toEndOf="@+id/tvwTrabid"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Proyid" />
+
+        <TextView
+            android:id="@+id/tvwFreeid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwDescripcion"
+            app:layout_constraintStart_toEndOf="@+id/tvwProyid"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Freeid" />
+
+        <TextView
+            android:id="@+id/tvwDescripcion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwFreeid"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Descripcion" />
+
+        <TextView
+            android:id="@+id/tvwPresupuesto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwFechainicio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwTrabid"
+            tools:text="Presupuesto" />
+
+        <TextView
+            android:id="@+id/tvwFechainicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwFechafin"
+            app:layout_constraintStart_toEndOf="@+id/tvwPresupuesto"
+            app:layout_constraintTop_toBottomOf="@+id/tvwProyid"
+            tools:text="FechaIni" />
+
+        <TextView
+            android:id="@+id/tvwFechafin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvwEstado"
+            app:layout_constraintStart_toEndOf="@+id/tvwFechainicio"
+            app:layout_constraintTop_toBottomOf="@+id/tvwFreeid"
+            tools:text="Fechafin" />
+
+        <TextView
+            android:id="@+id/tvwEstado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwFechafin"
+            app:layout_constraintTop_toBottomOf="@+id/tvwDescripcion"
+            tools:text="Estado" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

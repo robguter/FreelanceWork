@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="3dp"
+    android:paddingStart="15dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="5dp"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imgImag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="50dp"
+            android:minHeight="60dp"
+            android:background="@drawable/ic_person_add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvwUserId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="3dp"
+            android:maxWidth="50dp"
+            android:minWidth="45dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/imgImag"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="ID" />
+
+        <TextView
+            android:id="@+id/tvwNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwUserId"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Nombre" />
+
+        <TextView
+            android:id="@+id/tvwApellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="3dp"
+            android:minWidth="100dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwNombre"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Apellido" />
+
+        <TextView
+            android:id="@+id/tvwTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="3dp"
+            android:minWidth="80dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwApellido"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Telefono" />
+
+        <TextView
+            android:id="@+id/tvwEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:minWidth="180dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/imgImag"
+            app:layout_constraintTop_toBottomOf="@+id/tvwUserId"
+            tools:text="Email" />
+
+        <TextView
+            android:id="@+id/tvwUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:minWidth="80dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwEmail"
+            app:layout_constraintTop_toBottomOf="@+id/tvwNombre"
+            tools:text="Usuario" />
+
+        <TextView
+            android:id="@+id/tvwClave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:minWidth="80dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwUsuario"
+            app:layout_constraintTop_toBottomOf="@+id/tvwApellido"
+            tools:text="Clave" />
+
+        <TextView
+            android:id="@+id/tvwTipouser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:minWidth="80dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/imgImag"
+            app:layout_constraintTop_toBottomOf="@+id/tvwEmail"
+            tools:text="Tipo Usuario" />
+
+        <TextView
+            android:id="@+id/tvwInformacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:minWidth="180dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwTipouser"
+            app:layout_constraintTop_toBottomOf="@+id/tvwUsuario"
+            tools:text="Informacion" />
+
+        <TextView
+            android:id="@+id/tvwEstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:minWidth="80dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwInformacion"
+            app:layout_constraintTop_toBottomOf="@+id/tvwClave"
+            tools:text="Estatus" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+    </group>
+
+    <group android:id="@+id/mnuComun"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_usuario"
+            android:icon="@drawable/ic_user"
+            android:title="@string/user" />
+
+        <item android:id="@+id/nav_habilidad"
+            android:icon="@drawable/ic_habil"
+            android:title="@string/habilidades" />
+
+        <item android:id="@+id/nav_califica"
+            android:icon="@drawable/ic_notas"
+            android:title="@string/calificaciones" />
+
+    </group>
+
+    <group android:id="@+id/mnuClientes"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_proyecto"
+            android:icon="@drawable/ic_proy"
+            android:title="@string/proy" />
+
+        <item android:id="@+id/nav_pago"
+            android:icon="@drawable/ic_pago"
+            android:title="@string/pago" />
+    </group>
+
+    <group android:id="@+id/mnuFreelance"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_habilfree"
+            android:icon="@drawable/ic_habil"
+            android:title="@string/ablus" />
+
+        <item android:id="@+id/nav_trabajo"
+            android:icon="@drawable/ic_trab"
+            android:title="@string/trab" />
+    </group>
+
+    <!--<group android:checkableBehavior="single">
+        <item android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_output"
+            android:title="@string/salir" />
+
+    </group>-->
+</menu>

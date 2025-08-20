@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.sisterag.FreelanceWork.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <!--COMUN-->
+    <fragment
+        android:id="@+id/nav_usuario"
+        android:name="com.sisterag.FreelanceWork.ui.UsuarioFragment"
+        android:label="@string/menu_user"
+        tools:layout="@layout/fragment_usuario" />
+
+    <fragment
+        android:id="@+id/nav_habilidad"
+        android:name="com.sisterag.FreelanceWork.ui.HabilidadFragment"
+        android:label="@string/menu_habil"
+        tools:layout="@layout/fragment_habilidad" />
+
+    <fragment
+        android:id="@+id/nav_califica"
+        android:name="com.sisterag.FreelanceWork.ui.CalificaFragment"
+        android:label="@string/menu_califica"
+        tools:layout="@layout/fragment_califica" />
+
+    <!--CLIENTE-->
+    <fragment
+        android:id="@+id/nav_proyecto"
+        android:name="com.sisterag.FreelanceWork.ui.ProyectoFragment"
+        android:label="@string/menu_proyecto"
+        tools:layout="@layout/fragment_proyecto" />
+
+    <fragment
+        android:id="@+id/nav_pago"
+        android:name="com.sisterag.FreelanceWork.ui.PagoFragment"
+        android:label="@string/menu_pago"
+        tools:layout="@layout/fragment_pago" />
+    <!--FREELANCE-->
+    <fragment
+        android:id="@+id/nav_habilfree"
+        android:name="com.sisterag.FreelanceWork.ui.HabilUserFragment"
+        android:label="@string/menu_ablu"
+        tools:layout="@layout/fragment_habil_user" />
+
+    <fragment
+        android:id="@+id/nav_trabajo"
+        android:name="com.sisterag.FreelanceWork.ui.TrabajoFragment"
+        android:label="@string/menu_trab"
+        tools:layout="@layout/fragment_trabajo" />
+    <!--SALIR-->
+    <!--<fragment
+        android:id="@+id/nav_salir"
+        android:label="@string/menu_Salir" />-->
+
+</navigation>

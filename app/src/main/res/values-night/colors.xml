@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorPrimary">#80334455</color>   <!--BARRA DE TITULOS-->
+    <color name="colorPrimaryDark">#CC112233</color>
+    <color name="colorPrimaryVariant">#80445566</color>
+    <color name="colorSecondary">#CC203040</color>
+    <color name="colorSecondaryVariant">#80203040</color>
+    <color name="colorAccent">#CC203040</color>
+    <color name="window_background">#CC112233</color><!--Window Background-->
+    <color name="colorSurface">#EE445566</color> <!---->
+    <color name="colorBackground">#DD445566</color> <!--FONDO MENU CONFIG-->
+    <color name="colorContainer">#AA334455</color> <!--NO SE-->
+    <color name="button_primary_background">#CC445566</color>   <!--BOTON-->
+    <color name="statusBarColor">#40334455</color>   <!--BARRA SUPERIOR-->
+    <color name="card_background_color">#80123456</color> <!-- CARD VIEW -->
+    <color name="colorError">#FFFF4444</color> <!-- CARD VIEW -->
+
+    <color name="colorOnPrimary">#CCFFFFFF</color>   <!--TEXTO PANTALLA Y MENU-->
+    <color name="colorOnPrimaryDark">#80FFFFFF</color>
+    <color name="colorOnAccent">#FFFFFFFF</color>
+    <color name="colorOnSecondary">#AAFFFFFF</color>    <!--ICONOS MENU HAMBURGUESA-->
+
+    <color name="textoConten">#40FFFFFF</color>
+    <color name="colorConten">#80708090</color>
+    <color name="colorDisabled">#80808080</color> <!-- CARD VIEW -->
+    <color name="colorBackDeg2">#80FFFFFF</color> <!-- CARD VIEW -->
+    <color name="colorBackDeg3">#88113344</color> <!-- CARD VIEW -->
+
+    <color name="colorFdoTrns">#44123456</color>
+    <color name="transparente">#66778899</color>
+    <color name="cnFdo">#AA3355FF</color>
+    <color name="clrTexto">#AAFFFFFF</color>
+    <color name="highlightedTextViewColor">@android:color/holo_orange_dark</color>
+    <color name="normalTextViewColor">@android:color/holo_red_dark</color>
+    <color name="linea">#80AABBCC</color>
+    <color name="contransp">#779090AA</color>
+    <color name="cfuente">#806688AA</color>
+</resources>

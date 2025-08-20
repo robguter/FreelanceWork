@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorPrimary">#CCAABBCC</color>   <!--TITULO-->
+    <color name="colorPrimaryDark">#60DDEEFF</color>   <!--BARRA SUPERIOR-->
+    <color name="colorPrimaryVariant">#80DDEEFF</color>
+    <color name="colorSecondary">#CCBBCCDD</color>
+    <color name="colorSecondaryVariant">#80BBCCDD</color>
+    <color name="colorAccent">#CC8899AA</color>
+    <color name="window_background">#CCDDEEFF</color><!--Window Background-->
+    <color name="colorSurface">#EEAABBCC</color> <!---->
+    <color name="colorBackground">#DDBBCCDD</color> <!--FONDO MENU CONFIG-->
+    <color name="colorContainer">#AADDEEFF</color> <!--NO SE-->
+    <color name="button_primary_background">#CCAABBCC</color>   <!--BOTON-->
+    <color name="statusBarColor">#FFAA00CC</color>   <!--BARRA SUPERIOR-->
+    <color name="card_background_color">#FFABCDEF</color> <!-- CARD VIEW -->
+    <color name="colorError">#FFFF4444</color> <!-- CARD VIEW -->
+
+    <color name="colorOnPrimary">#CC000000</color>   <!--TEXTO PANTALLA Y MENU-->
+    <color name="colorOnPrimaryDark">#80008080</color>
+    <color name="colorOnAccent">#FF8080FF</color>
+    <color name="colorOnSecondary">#80000000</color>    <!--MENU HAMBURGUESA, ICONOS MENU-->
+
+    <color name="textoConten">#40000000</color>     <!--TEXTO E ICONO ACTIVO-->
+    <color name="colorConten">#80DD00FF</color>
+    <color name="colorDisabled">#FF607080</color> <!-- CARD VIEW -->
+    <color name="colorBackDeg2">#80FFFFFF</color> <!-- CARD VIEW -->
+    <color name="colorBackDeg3">#88AABBCC</color> <!-- CARD VIEW -->
+
+    <color name="colorFdoTrns">#FFDDEEFF</color>
+    <color name="transparente">#8888AA99</color>
+    <color name="cnFdo">#AAAAAAFF</color>
+    <color name="clrTexto">#FFFFFFFF</color>
+    <color name="highlightedTextViewColor">@android:color/holo_orange_dark</color>
+    <color name="normalTextViewColor">@android:color/holo_red_dark</color>
+    <color name="linea">#EE667788</color>
+    <color name="contransp">#778899AA</color>
+    <color name="cfuente">#808899AA</color>
+</resources>

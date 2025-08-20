@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.TrabajoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvwProyid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:minWidth="100dp"
+            android:paddingBottom="3dp"
+            android:text="@string/proyid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etProyid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="9dp"
+            android:hint="@string/proyid"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwProyid"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvwFreeid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:minWidth="100dp"
+            android:paddingBottom="3dp"
+            android:text="@string/freeid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwProyid" />
+
+        <EditText
+            android:id="@+id/etFreeid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="0dp"
+            android:hint="@string/freeid"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwFreeid"
+            app:layout_constraintTop_toBottomOf="@+id/etProyid" />
+
+        <TextView
+            android:id="@+id/tvwDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:minWidth="100dp"
+            android:paddingBottom="3dp"
+            android:text="@string/descripcion"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwFreeid" />
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="0dp"
+            android:hint="@string/descripcion"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwDescripcion"
+            app:layout_constraintTop_toBottomOf="@+id/etFreeid" />
+
+        <TextView
+            android:id="@+id/tvwPresupuesto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:minWidth="100dp"
+            android:paddingBottom="3dp"
+            android:text="@string/presupuesto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwDescripcion" />
+
+        <EditText
+            android:id="@+id/etPresupuesto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="0dp"
+            android:hint="@string/presupuesto"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwPresupuesto"
+            app:layout_constraintTop_toBottomOf="@+id/etDescripcion" />
+
+        <TextView
+            android:id="@+id/tvwFechainicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:minWidth="100dp"
+            android:paddingBottom="3dp"
+            android:text="@string/fechainicio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwPresupuesto" />
+
+        <EditText
+            android:id="@+id/etFechainicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="0dp"
+            android:hint="@string/fechainicio"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:paddingTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwFechainicio"
+            app:layout_constraintTop_toBottomOf="@+id/etPresupuesto" />
+
+        <TextView
+            android:id="@+id/tvwFechafin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:minWidth="100dp"
+            android:paddingBottom="3dp"
+            android:text="@string/fechafin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwFechainicio" />
+
+        <EditText
+            android:id="@+id/etFechafin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="0dp"
+            android:hint="@string/fechafin"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:paddingTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwFechafin"
+            app:layout_constraintTop_toBottomOf="@+id/etFechainicio" />
+
+        <TextView
+            android:id="@+id/tvwEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="11dp"
+            android:minWidth="100dp"
+            android:text="@string/estado"
+            android:paddingBottom="3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwFechafin" />
+
+        <EditText
+            android:id="@+id/etEstado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="0dp"
+            android:hint="@string/estado"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvwEstado"
+            app:layout_constraintTop_toBottomOf="@+id/etFechafin" />
+
+        <!--CUADROS DE TEXTO-->
+
+        <TextView
+            android:id="@+id/tvwTrabidTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:minWidth="22dp"
+            android:text="@string/elid"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etEstado" />
+
+        <TextView
+            android:id="@+id/tvwProyidTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:minWidth="127dp"
+            android:text="@string/proyid"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwCaliIdTit"
+            app:layout_constraintTop_toBottomOf="@id/etEstado" />
+
+        <TextView
+            android:id="@+id/tvwDescripcionTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:minWidth="86dp"
+            android:text="@string/descripcion"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tvwProyidTit"
+            app:layout_constraintTop_toBottomOf="@id/etEstado" />
+
+        <TextView
+            android:id="@+id/tvwPresupuestoTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:minWidth="95dp"
+            android:text="@string/presupuesto"
+            android:textSize="12sp"
+            app:cardCornerRadius="6dp"
+            app:layout_constraintStart_toEndOf="@+id/tvwDescripcionTit"
+            app:layout_constraintTop_toBottomOf="@id/etEstado" />
+        <!--AQUI-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvwRecyclr"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:maxHeight="250dp"
+            android:minHeight="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnGuardar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvwPresupuestoTit"
+            tools:listitem="@layout/item_traba" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="3dp"
+            android:paddingStart="10dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="7dp"
+            android:text="@string/guardar"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/rvwRecyclr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnGuardar"
+            app:layout_constraintTop_toBottomOf="@+id/rvwRecyclr" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
